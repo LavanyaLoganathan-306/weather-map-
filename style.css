@@ -1,0 +1,122 @@
+nav{
+    background-color: black;
+    border: solid wheat;
+}
+h1{
+ text-align: center; 
+ color: white; 
+}
+li,ul{
+   display: inline;
+   cursor: pointer;
+}
+ul{
+    margin-left: 60%;
+    font-size: 100%;
+}
+li{
+    color: grey;
+    font-size: 150%;
+    margin:5px
+
+}
+li:hover{
+    color: white;
+}
+#searchbar{
+    text-align: center;
+    margin-left:35%;
+    border: solid black;
+    height:950px;
+    width:550px;
+    margin-top: 25px;
+    color: black;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    flex: 1;
+}
+
+input{
+      border:none;
+      outline:none;
+      font-weight:500px;
+      font-size: 130%;
+      background: transparent;
+      margin-left: 20%;
+      flex: 1;
+
+}
+.btn{
+    position:relative;
+    border-radius: 8px;
+    margin:15px;
+    height:35px;
+    width:95px;
+    background: skyblue;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.9s ease;
+
+}
+.btn:hover {
+    background: #e64a19;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 230%;
+}
+.bar{
+    border-radius: 15px;
+    background-color: lightgrey;
+    text-align: center;
+    max-width: 350px;
+    height:35px;
+    margin-left: 15%;
+    border-style:ridge;
+    flex: 1;
+}
+.fa-house{
+    color:white;
+    font-size: 120%;
+}
+
+.fa-cloud-moon-rain{
+    color:black
+}
+.weather-icon{
+    height:150px;
+    width:150px;
+}
+.humidityimg{
+    height:90px;
+    width:90px;
+}
+.windimg{
+    height:90px;
+    width:90px;
+    display: inline;
+}
+.weather h1{
+    font-size:50px ;
+    color:black;
+}
+.weather h2{
+    font-size: 45px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.col2{
+    font-size:200% ;
+    font-family:fantasy;
+    display:inline
+}
+.col1{
+    font-size: 210%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
